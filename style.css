@@ -207,11 +207,11 @@ body {
   flex-wrap: wrap;
 }
 
-.logo a {
-  font-size: 22px;
-  font-weight: 700;
-  color: #fff;
-  text-decoration: none;
+.logo  {
+  max-width: 50px;
+}
+.logo img{
+  border-radius: 10px;
 }
 
 .nav ul {
@@ -1176,7 +1176,22 @@ body {
   padding: 60px 0 20px;
   font-size: 14px;
 }
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
 
+.footer-icons img {
+  height: 80px;
+  max-width: 140px;
+  object-fit: cover;
+  filter: brightness(1.2);
+  border-radius: 5px;
+}
 .footer-inner {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
